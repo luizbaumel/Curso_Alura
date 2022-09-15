@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contatos</title>
+
+    <link rel="stylesheet" href="../Reset/reset.css">
+    <link rel="stylesheet" href="../Contatos/contatos.css">
+</head>
+
+<header>
+    <div class="caixa">
+        <h1>
+            <img class="imgheader" src="https://cdn.fansshare.com/photos/nikeskateboarding/nike-sb-wallpaper-desktop-background-logo-quality-wallpaper-1903728402.jpg"
+                alt="logo nike">
+        </h1>
+        <nav>
+            <ul>
+                <li><a href="../Home/home.html">Home</a></li>
+                <li><a href="../Produtos/produtos.html">Produtos</a></li>
+                <li><a href="../Contatos/contatos.html">Contatos</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<main>
+    <form action="">
+        <label for="nomesobrenome">Nome e sobrenome</label>
+        <input type="text" id="nomesobrenome" class="input-padrao" required>
+
+        <label for="email">Email</label>
+        <input type="tel" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+
+        <label for="telefone">Telefone</label>
+        <input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
+
+        <label for="mensagem">Mensagem</label>
+        <textarea name="" id="mensagem" cols="30" rows="10" class="input-padrao" required></textarea>
+
+        <fieldset>
+            <legend>Como prefere o nosso contato?</legend>
+            <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">Email</label>
+            
+            <label for="radio-telefone"><input type="radio" name="contato" id="radio-telefone" value="telefone">Telefone</label>
+            
+            <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked>WhatsApp</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Qual horário prefere ser atendido?</legend>
+            <select name="" id="">
+                <option value="">Manhã</option>
+                <option value="">Tarde</option>
+                <option value="">Noite</option>
+            </select>
+        </fieldset>
+
+        <label class="checkbox" for=""><input type="checkbox" checked>Gostaria de receber nossas novidades por email?</label>
+
+        <input type="submit" value="Eviar formulário" class="enviar">
+    </form>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Dia</th>
+                <th>Horário</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Segunda</td>
+                <td>8h ~ 20h</td>
+            </tr>
+            <tr>
+                <td>Quarta</td>
+                <td>8h ~ 20h</td>
+            </tr>
+            <tr>
+                <td>Sexta</td>
+                <td>8h ~ 20h</td>
+            </tr>
+        </tbody>
+    </table>
+</main>
+
+<footer>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTdwNqdXLKWBHYHLann9-o5_LHPTObMTpfpw&usqp=CAU"
+        alt="Logo nike">
+    <p class="copyright">&copy; Copyrirght Luiz Fernando - 2022</p>
+    <!-- Descricao do endereço e numero de telefone da loja -->
+</footer>
+
+</html>
